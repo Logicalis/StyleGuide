@@ -1,0 +1,192 @@
+@import "bootstrap/bootstrap-docs";
+
+@font-face {
+
+     font-family: "FaktSoftPro";
+     src: url("../fonts/FaktSoftPro-Blond.otf") format("opentype");
+     }
+
+     @font-face {
+
+     font-family: "FaktSoftProMedium";
+     src: url("../fonts/FaktSoftPro-Medium.otf") format("opentype");
+     }
+
+body{
+    font-family: FaktSoftPro;
+
+     }
+
+  .pattern-list > li {
+    margin-bottom: 24px;
+    margin-bottom: 1.71429rem;
+    background: #fff;
+    border-radius: 5px; 
+    border: 2px solid rgba(210, 210, 210, 0.47);
+    padding: 15px;
+  }  
+
+  .tapestry__heading {
+    font-family: FaktSoftPro;
+} 
+
+.ui-module-hero-tapestry h1, .ui-module-hero-tapestry .text--lead {
+    font-family: FaktSoftPro;
+}
+
+
+
+.tapestry-header{
+    background: #ffffff;
+    color: #e83f3f;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    min-height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    -webkit-transition: all 0.2s cubic-bezier(0, 0, 0.25, 1);
+    -moz-transition: all 0.2s cubic-bezier(0, 0, 0.25, 1);
+    transition: all 0.2s cubic-bezier(0, 0, 0.25, 1);
+    box-shadow: 0 5px 20px 0 #d8dde4;
+}
+
+.pattern-list > li > h3 {
+    padding: 0.5em 15px;
+    margin: 0;
+    font-family: "Open Sans", Helvetica, Arial;
+    border-bottom: 1px #eaeaea solid;
+}
+
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+    content: "";
+    color: #e83f3f;
+}
+
+.tapestry-menu{
+     font-family: FaktSoftPro;
+
+}
+
+.tapestry-menu a {
+    display: block;
+    padding: .75rem 2rem;
+    line-height: 1.28571428571429;
+    color: #3b3b3b;
+      transition: color .1s linear;
+}
+
+
+.tapestry-menu .menu__header {
+    font-size: 16px;
+    /* font-size: 1.14286rem; */
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.tapestry-menu a:hover, .tapestry-menu .active > a {
+    background: rgba(244,246,249,.5);
+    color: #3b3b3b;
+    transition: color .1s linear;
+}
+
+.tapestry-menu {
+    font-size: 14px;
+}
+
+body{
+    background-color: #fff;
+}
+
+
+.ui-module-hero-tapestry {
+    color: #fff;
+    padding: 30px 0 30px 0;
+    background: #f9f8f9;
+    text-align: center;
+}
+
+.container img{
+    width: 50%;
+}
+
+.tapestry__footer img{
+  width: 15%;
+}
+
+.ui-module-hero-tapestry {
+    color: #fff;
+    padding: 30px 0 30px 0;
+    background: -webkit-linear-gradient(rgba(135, 60, 255, 1), rgba(135, 60, 255, 0.0) 0%), -webkit-linear-gradient(-59deg, #EAF9FD 50%, #ffffff 0%);
+    text-align: center;
+}
+
+.ui-module-hero-tapestry .text--lead {
+    color: #ababab;
+}
+
+h1 {
+    color: #ababab;
+}
+
+.tapestry-menu {
+    font-size: 15px;
+}
+
+.ui-module-hero-tapestry hr {
+    border-top: 1px #eaeaea solid;
+}
+
+.tapestry-menu .menu__header {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: FaktSoftProMedium;
+}
+
+.tapestry-features {
+    list-style: none;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+    font-family: FaktSoftProMedium;
+    font-size: 0;
+}
+
+.teste {
+  position: relative;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    /* Standard syntax */
+    animation-name: example;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+   
+
+ 0%  { top:  0px; }
+  50%  { top: 10px; }
+  100%  { top:  0px; }
+ 
+
+
+
+}
+

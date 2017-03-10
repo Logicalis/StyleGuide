@@ -1,7 +1,7 @@
 ---
 name: Zebra table
 ---
-<table class="table table--bordered table--zebra">
+<table class="table table-striped">
   <thead>
     <tr>
       <th>Company</th>

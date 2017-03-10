@@ -147,34 +147,39 @@
         "slug": "Buttons",
         "children": [
             {
-                "path": "patterns/1.elements/Buttons/buttons-dark.md",
-                "name": "Buttons dark",
-                "slug": "buttons-dark.md"
+                "path": "patterns/1.elements/Buttons/ buttons-call-to-action.md",
+                "name": "Button call to action  julianaghg",
+                "slug": " buttons-call-to-action.md"
             },
             {
-                "path": "patterns/1.elements/Buttons/buttons-groups.md",
-                "name": "Button groups",
-                "slug": "buttons-groups.md"
+                "path": "patterns/1.elements/Buttons/btn-button-form.md",
+                "name": "Button Form",
+                "slug": "btn-button-form.md"
+            },
+            {
+                "path": "patterns/1.elements/Buttons/btn-buttons-group.md",
+                "name": "Buttons Groups",
+                "slug": "btn-buttons-group.md"
+            },
+            {
+                "path": "patterns/1.elements/Buttons/btn-buttons-states-primary.md",
+                "name": "Buttons Primary - States",
+                "slug": "btn-buttons-states-primary.md"
+            },
+            {
+                "path": "patterns/1.elements/Buttons/btn-buttons-states-secundary.md",
+                "name": "hjhgjgh",
+                "slug": "btn-buttons-states-secundary.md"
+            },
+            {
+                "path": "patterns/1.elements/Buttons/buttons-drop-down.md",
+                "name": "Button Drop-Down",
+                "slug": "buttons-drop-down.md"
             },
             {
                 "path": "patterns/1.elements/Buttons/buttons-icons.md",
-                "name": "Buttons with icons",
+                "name": "Button Icons Buttons",
                 "slug": "buttons-icons.md"
-            },
-            {
-                "path": "patterns/1.elements/Buttons/buttons-light.md",
-                "name": "Buttons light",
-                "slug": "buttons-light.md"
-            },
-            {
-                "path": "patterns/1.elements/Buttons/buttons-primary.md",
-                "name": "Buttons primary",
-                "slug": "buttons-primary.md"
-            },
-            {
-                "path": "patterns/1.elements/Buttons/buttons-secondary.md",
-                "name": "Buttons secondary",
-                "slug": "buttons-secondary.md"
             },
             {
                 "path": "patterns/1.elements/Buttons/buttons-sizes.md",
@@ -182,14 +187,9 @@
                 "slug": "buttons-sizes.md"
             },
             {
-                "path": "patterns/1.elements/Buttons/buttons-variations.md",
-                "name": "Button variations",
-                "slug": "buttons-variations.md"
-            },
-            {
-                "path": "patterns/1.elements/Buttons/buttons-warning.md",
-                "name": "Buttons warning",
-                "slug": "buttons-warning.md"
+                "path": "patterns/1.elements/Buttons/buttons-split-drop-down.md",
+                "name": "Button Split dropdowns",
+                "slug": "buttons-split-drop-down.md"
             }
         ]
     },
@@ -204,7 +204,7 @@
             },
             {
                 "path": "patterns/1.elements/Forms/field-sizes.md",
-                "name": "Field sizes",
+                "name": "Field sizes juliana",
                 "slug": "field-sizes.md"
             },
             {
@@ -241,55 +241,9 @@
         ]
     },
     {
-        "name": "Media",
-        "slug": "Media",
-        "children": [
-            {
-                "path": "patterns/1.elements/Media/images-thumbnail.md",
-                "name": "Thumbnail Images",
-                "slug": "images-thumbnail.md"
-            },
-            {
-                "path": "patterns/1.elements/Media/images.md",
-                "name": "Image",
-                "slug": "images.md"
-            },
-            {
-                "path": "patterns/1.elements/Media/media-grid.md",
-                "name": "Media grid",
-                "slug": "media-grid.md"
-            },
-            {
-                "path": "patterns/1.elements/Media/media-listing.md",
-                "name": "Media listing",
-                "slug": "media-listing.md"
-            },
-            {
-                "path": "patterns/1.elements/Media/video.md",
-                "name": "Video",
-                "slug": "video.md"
-            }
-        ]
-    },
-    {
         "name": "Table",
         "slug": "Table",
         "children": [
-            {
-                "path": "patterns/1.elements/Table/table-bordered.md",
-                "name": "Table bordered",
-                "slug": "table-bordered.md"
-            },
-            {
-                "path": "patterns/1.elements/Table/table-condensed.md",
-                "name": "Table condensed",
-                "slug": "table-condensed.md"
-            },
-            {
-                "path": "patterns/1.elements/Table/table-default.md",
-                "name": "Table",
-                "slug": "table-default.md"
-            },
             {
                 "path": "patterns/1.elements/Table/table-responsive.md",
                 "name": "Responsive table",
@@ -299,11 +253,6 @@
                 "path": "patterns/1.elements/Table/table-zebra.md",
                 "name": "Zebra table",
                 "slug": "table-zebra.md"
-            },
-            {
-                "path": "patterns/1.elements/Table/table.md",
-                "name": "Table",
-                "slug": "table.md"
             }
         ]
     }

@@ -1,7 +1,7 @@
 ---
 name: Responsive table
 ---
-<table class="table table--bordered table--zebra js-table-responsive">
+<table class="table table-bordered table-striped">
   <thead>
     <tr>
       <th>Company</th>
