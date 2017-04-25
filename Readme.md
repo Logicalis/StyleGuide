@@ -1,43 +1,18 @@
-# Tapestry - Pattern Library Maker
+# Logicalis Style Guide
 
-An app for creating and managing your front-end pattern library.
+Based on [Tapestry](https://github.com/PebbleRoad/tapestry)
 
-1. Create patterns in Markdown files
-2. Browseable interface
-3. Free and open source
-4. Comment on each pattern using `disqus`
+## Developing
+        npm install
+        npm start
 
-Built with Gulp, Angular and Markdown/YAML.
+Got to [http://localhost:8000](http://localhost:8000)
 
-## Dependencies
+### Build
 
-* [NodeJS](http://nodejs.org/)
-* [Bower](http://bower.io/)
-* [Gulp](http://gulpjs.com/)
+        npm run build
 
-## How to use
-
-1. Clone the repository
-
-        git clone https://github.com/PebbleRoad/tapestry.git
-
-2. Install NPM and bower packages
-    
-        npm install && bower install
-
-3. Launch the server
-
-        gulp patterns
-        
-4. Open your browser and navigate to
-        
-        http://localhost:8000
-
-#### Configuring disqus
-
-Create a new discuss account and open `src/assets/js/app/app.js` and set the `disqus_shortname`
-
-## Pattern format
+## Tapestry Pattern format
 
     ---
     name: Alert
@@ -52,14 +27,3 @@ Create a new discuss account and open `src/assets/js/app/app.js` and set the `di
         <div class="alert__body">More body text</div>
         <a href="#" class="alert_close"></a>
     </div>
-
-## How it works
-
-1. Patterns folder is watched by Gulp and JSON files are generated for each root pattern
-2. AngularJS uses these JSON documents to show a browseable interface of the patterns
-3. Inject your own CSS by editing `index.html` and add your own patterns
-
-## Todo
-
-1. Unit testing gulp plugins - gulp-tree and gulp-script-inject
-2. Unit testing of the Angular app
