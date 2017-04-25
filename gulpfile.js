@@ -117,7 +117,7 @@ gulp.task('ngtemplatesJade', function(){
 
 gulp.task('cleaner', function(){
 
-    return gulp.src('./build', {read:false})
+    return gulp.src('./docs', {read:false})
         .pipe(clean({force: true}));
 });
 
@@ -156,7 +156,7 @@ gulp.task('copy', ['cleaner'], function(){
 
     gulp.src(['./src/**', '!./src/jade'])
         //.pipe(cssmin())
-        .pipe(gulp.dest('./build'));
+        .pipe(gulp.dest('./docs'));
 
 });
 
@@ -191,5 +191,5 @@ gulp.task('server', function(){
  * Main tasks : Default and Build
  */
 
-gulp.task('build', ['sass', 'jade', 'copy']);
+gulp.task('build', ['sass', 'injecter', 'copy']);
 gulp.task('patterns', ['cleanJSON', 'injecter', 'sass', 'watch', 'server']);
