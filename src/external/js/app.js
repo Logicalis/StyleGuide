@@ -53,7 +53,7 @@
             /**
              * Tooltip
              */
-            
+            /*
             $('[data-tooltip], [rel*="tooltip"]').each(function(){
                 
                 var event = $(this).data('tooltip-event') || 'hover'
@@ -64,7 +64,7 @@
                     opacity: 1
                 })
             })
-
+            */
 
             /**
              * Slider
@@ -127,15 +127,28 @@
                 lookup: countries
             })
 
-            $('.ui-accordion').accordion();
+            // $('.ui-accordion').accordion();
 
-            $('.ui-tabs, [data-component="ui-tabs"]').tabs();
+            // $('.ui-tabs, [data-component="ui-tabs"]').tabs();
 
-            $('[data-toggle]').dropdown();
+            // $('[data-toggle]').dropdown();
 
-            //$('.tapestry-menu-side').scrollspy();
+            // $('.tapestry-menu-side').scrollspy();
             
             var $menu = $('.tapestry-menu-side a')
+
+
+
+
+            /**
+             * bootstrap
+             */
+
+            $('.collapse').collapse()
+
+            $('[data-toggle="tooltip"]').tooltip();
+
+            $('.dropdown-toggle').dropdown();
         }
     }
 

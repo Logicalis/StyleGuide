@@ -257,7 +257,7 @@ angular.module('tapestry', [
          */
         angular.element(window).bind('scroll resize', function(){
 
-            $autocomplete && $autocomplete.autocomplete('fixPosition')
+            window.$autocomplete && window.$autocomplete.autocomplete('fixPosition')
 
         });
 

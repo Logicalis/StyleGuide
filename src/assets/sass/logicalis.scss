@@ -1,16 +1,55 @@
 @import "bootstrap/bootstrap-docs";
 
-@font-face {
 
+/*------------------------------------*\
+  FONT: FRANK SOFT
+\*------------------------------------*/
+
+@font-face {
      font-family: "FaktSoftPro";
      src: url("../fonts/FaktSoftPro-Blond.otf") format("opentype");
      }
 
-     @font-face {
-
+ @font-face {
      font-family: "FaktSoftProMedium";
      src: url("../fonts/FaktSoftPro-Medium.otf") format("opentype");
      }
+
+ @font-face {
+     font-family: "FaktSoftProNormal";
+     src: url("../fonts/FaktSoftPro-Normal.otf") format("opentype");
+     }
+
+/*------------------------------------*\
+  FONT: ROBOTO
+\*------------------------------------*/
+
+@font-face {
+     font-family: "Roboto-Bold";
+     src: url("../fonts/Roboto-Bold.ttf") format("opentype");
+     }
+
+@font-face {
+     font-family: "Roboto-Italic";
+     src: url("../fonts/Roboto-Italic.ttf") format("opentype");
+     }
+
+@font-face {
+     font-family: "Roboto-Light";
+     src: url("../fonts/Roboto-Light.ttf") format("opentype");
+     }
+
+@font-face {
+     font-family: "Roboto-Regular";
+     src: url("../fonts/Roboto-Regular.ttf") format("opentype");
+     }
+
+
+
+
+
+
+
 
 body{
     font-family: FaktSoftPro;
@@ -22,7 +61,8 @@ body{
     margin-bottom: 1.71429rem;
     background: #fff;
     border-radius: 5px; 
-    border: 2px solid rgba(210, 210, 210, 0.47);
+    padding-top:3px;
+    border: 1px solid rgba(210, 210, 210, 0.47);
     padding: 15px;
   }  
 
@@ -33,7 +73,6 @@ body{
 .ui-module-hero-tapestry h1, .ui-module-hero-tapestry .text--lead {
     font-family: FaktSoftPro;
 }
-
 
 
 .tapestry-header{
@@ -127,7 +166,7 @@ body{
 }
 
 .ui-module-hero-tapestry .text--lead {
-    color: #ababab;
+    color: #8e8e8e;
 }
 
 h1 {
@@ -164,14 +203,14 @@ h1 {
     /* Safari 4.0 - 8.0 */
     -webkit-animation-name: example;
     -webkit-animation-duration: 2s;
-    -webkit-animation-timing-function: ease;
+    -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-delay: 1s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     /* Standard syntax */
     animation-name: example;
-    animation-duration: 2s;
-    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -179,14 +218,425 @@ h1 {
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
-   
+0%  { top:  0px; }
+50%  { top: 10px; }
+100%  { top:  0px; }
+}
 
- 0%  { top:  0px; }
-  50%  { top: 10px; }
-  100%  { top:  0px; }
- 
-
-
+.btn-download:hover, .btn-download:active, .btn-download {
+    border: 0px solid rgba(255, 255, 255, 0);
+    color: #ffffff;
+    border-radius: 3px;
+    background: linear-gradient(to right, #8ed2e4, #6ab8d9);
+    border-radius: 4px;
+    box-shadow: 0px 1px 32px 1px rgba(97, 168, 197, 0.39);
+    font-size: 17px;
+    font-family: FaktSoftPro;
+    border: 0px solid rgba(255, 255, 255, 0);
+    color: #ffffff;
+    border-radius: 3px;
+    background: linear-gradient(to right, #8ed2e4, #6ab8d9);
+    border-radius: 4px;
+    box-shadow: 0px 1px 32px 1px rgba(97, 168, 197, 0.39);
+    font-size: 17px;
+    font-family: FaktSoftPro;
 
 }
+.tapestry-header .form-control.icon-left .text-input {
+    padding-top: 3px;
+    color: #272727;
+    font-size: 14px; 
+}
+
+/*.form-control {
+    display: block;
+    width: 100%;
+     height: 34px; 
+    padding: 0px;
+    font-size: 14px;
+    line-height: 1.42857;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    border: solid 3px transparent;
+}*/
+
+em.fa.fa-search.fa-lg {
+    top: 21px;
+    font-size: 13px;
+    color: #d4d4d4;
+}
+
+p{
+    font-family: FaktSoftPro;  
+    color: #8e8e8e;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+h1 {
+    color: #5b5f61;
+}
+
+.tapestry-features h3 {
+     font-family: FaktSoftProNormal;
+     color: #5b5f61;
+     font-weight: none;
+     font-size: 18px;
+}
+
+a {
+    color: #4990E2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4990E2;
+   
+}
+
+h1, .h1 {
+    font-size: 38px;
+    font-family: Roboto-Light;
+    color: #3c4858;
+}
+
+h2, .h2 {
+    font-size: 24px;
+    font-family: Roboto-Light;
+    color: #3c4858;
+ }
+
+h3, .h3 {
+    font-size: 20px;
+    font-family: Roboto-Light;
+    color: #3c4858;
+  }
+
+.text{
+    font-size: 16px;
+    font-family: Roboto-Light;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.text-color{
+    font-size: 16px;
+    font-family: Roboto-Light;
+    line-height: 28px;
+    letter-spacing: -0.6px;
+    text-align: justify;
+    color: #3c4858;
+}
+
+.pattern-list > li > h3 {
+    padding: 0.5em 15px;
+    margin: 0;
+    font-family: FaktSoftProNormal;
+    border-bottom: 1px #eaeaea solid;
+    font-size: 26px;
+    color: #333333;
+}
+
+.code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
+.ui-this-that {
+    border-bottom: 1px #BFBFBF solid;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-bottom: 1.71429rem;
+}
+
+.ui-this-that span {
+    background: #fff;
+    padding: 0px 10px;
+    display: inline-block;
+    position: relative;
+    bottom: -0.8em;
+    color: #BFBFBF;
+}
+
+/*------------------------------------*\
+  SASS
+\*------------------------------------*/
+
+.btn {
+    line-height: normal;
+    padding: 0.6em 1.2em;
+    border: 1px solid transparent;
+    // background: #EDEEF1;
+    border-radius: 2px;
+    text-decoration: none;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+   
+}
+
+.input-group {
+    margin-bottom: 24px;
+    margin-bottom: 1.71429rem;
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: transparent; 
+    border-radius: 0px;
+    font-family: Roboto-Regular;
+}
+
+.btn-default{
+    line-height: normal;
+    padding: 0.6em 1.2em;
+    border: 1px solid #adadad;
+    background: #ffffff;
+    border-radius: 2px;
+    text-decoration: none;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    font-family: Roboto-Light;
+    color: #6b6b6b;   
+}
+
+.btn-primary{
+    line-height: normal;
+    padding: 0.6em 1.2em;
+    border: 1px solid #42a1ca;
+    // background: #42a1ca;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    font-family: Roboto-Light;
+}
+
+.btn-facebook{
+    line-height: normal;
+    padding: 0.6em 1.2em;
+    border: 1px solid #5970B3;
+    background: #5970B3;
+    color: white;   
+    border-radius: 2px;
+    text-decoration: none;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    font-family: Roboto-Light;
+}
+
+.btn-google{
+    line-height: normal;
+    padding: 0.6em 1.2em;
+    border: 1px solid #dc3529;
+    background: #dc3529;
+    border-radius: 2px;
+    text-decoration: none;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    font-family: Roboto-Light;
+    color: white;
+}
+
+
+/*------------------------------------*\
+    ACCORDION.CSS
+\*------------------------------------*/
+
+.tab__handle--mobile:after, .accordion__header:after {
+  content: "\f107";
+  font-family: FontAwesome;
+  float: right;
+  font-size: 18px; }
+
+.tab__handle--mobile.active:after, .accordion__active:after {
+  content: "\f106"; }
+
+.ui-accordion {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 24px;
+  margin-bottom: 1.71429rem;
+  -webkit-tap-highlight-color: transparent; }
+
+
+html[ng-app] {
+    background: #ffffff;
+}
+
+img.img-roboto.ng-scope{
+    width: 70%;
+}
+
+.roboto-regular{
+    width: 93%;
+    padding: 0px 1px 0px 4px;
+    font-family: Roboto-Regular;
+    color: #3c4858;
+}
+
+.roboto-italic{
+    width: 93%;
+    padding: 0px 1px 0px 4px;
+    font-family: Roboto-Italic;
+    color: #3c4858;
+}
+
+.roboto-bold{
+    width: 95%;
+    padding: 0px 1px 0px 4px;
+    font-family: roboto-Bold;
+    color: #3c4858;
+}
+
+.roboto-light{
+    width: 93%;
+    padding: 0px 1px 0px 4px;
+    font-family: roboto-Light;
+    color: #3c4858;
+}
+
+.subtitle{
+    font-size: 13px;
+    font-family: Roboto-Light;
+    line-height: 28px;
+    text-align: justify;
+}
+
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    margin: 0px 0px 15px 0px;
+    font-family: Roboto-Light;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #555555;
+    background-color: #fff;
+    border: 1px solid #ddd; 
+    border-bottom-color: #fff;
+    border-top: 2px solid #3f4243;
+    cursor: pointer;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+}
+
+a:hover, a:focus {
+    color: #4990E2;
+    text-decoration: underline;
+}
+
+.fa-accordion{
+    float: right;
+}
+
+img.brands{
+    width: 25%;
+}
+
+.palette .color:last-child {
+    border-radius: 0px 0px 0px 0px;
+}
+
+
+.palette .color {
+    border-radius: 0px 0px 0 0;
+    height: 80px;
+    padding-top: 1.5em;
+}
+
+.text-alert-success{
+    color: #3c763d;
+    font-size: 16px;
+}
+
+.text-alert-info{
+    color: #31708f;
+    font-size: 16px;
+}
+
+.text-alert-warning{
+    color: #8a6d3b;
+    font-size: 16px;
+}
+
+.text-alert-danger{
+    color: #a94442;
+    font-size: 16px;
+}
+
+p {
+    font-family: FaktSoftPro;
+    color: rgba(0, 0, 0, 0.51);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.title-text{
+    color:#ffffff;
+    font-size: 16px;
+}
+
+.title-span{
+    color:#b0b5bb;
+    font-size: 16px;
+}
+
+.block-text{
+    color:#ffffff;
+    font-size: 16px;
+}
+
+.block-text-span{
+    color:#d5dae1;
+    font-size: 16px;
+}
+
+
+
+
+.text-title-ui{
+    color: #3c4858;
+    font-size: 16px;
+}
+
+.navbar-default {
+    border-bottom: 1px solid #d6d6d6;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+}
+
+.space{
+    padding-left: 7px; 
+}
+
+
+.divisor{
+    background-color: hsla(0,0%,83%,.6);
+    content: "";
+    display: block;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 16px;
+    width: 1px;    
+}
+
+
+
+
 

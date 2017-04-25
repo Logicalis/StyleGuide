@@ -1,4 +1,4 @@
 ---
 name: Links
 ---
-<a href="#">Default link</a>
+<p class="text"><a href="#">Default link</a></p>

@@ -4,9 +4,25 @@
         "slug": "1.Colors",
         "children": [
             {
-                "path": "patterns/1.elements/1.Colors/palette.md",
+                "path": "patterns/1.elements/1.Colors/1.text.md",
                 "name": "Color palette",
-                "slug": "palette.md",
+                "slug": "1.text.md",
+                "meta": {
+                    "hidecode": true
+                }
+            },
+            {
+                "path": "patterns/1.elements/1.Colors/3.Alertas.md",
+                "name": "Alerts",
+                "slug": "3.Alertas.md",
+                "meta": {
+                    "hidecode": true
+                }
+            },
+            {
+                "path": "patterns/1.elements/1.Colors/ui-elements.md",
+                "name": "UI Elements",
+                "slug": "ui-elements.md",
                 "meta": {
                     "hidecode": true
                 }
@@ -18,127 +34,56 @@
         "slug": "2.Typography",
         "children": [
             {
-                "name": "Emphasis",
-                "slug": "Emphasis",
-                "children": [
-                    {
-                        "path": "patterns/1.elements/2.Typography/Emphasis/bold-text.md",
-                        "name": "Bold",
-                        "slug": "bold-text.md"
-                    },
-                    {
-                        "path": "patterns/1.elements/2.Typography/Emphasis/italics-text.md",
-                        "name": "Italics",
-                        "slug": "italics-text.md"
-                    },
-                    {
-                        "path": "patterns/1.elements/2.Typography/Emphasis/small-text.md",
-                        "name": "Small",
-                        "slug": "small-text.md"
-                    },
-                    {
-                        "path": "patterns/1.elements/2.Typography/Emphasis/text-sizes.md",
-                        "name": "Text size variations",
-                        "slug": "text-sizes.md"
-                    }
-                ]
+                "path": "patterns/1.elements/2.Typography/1roboto.md",
+                "name": "Roboto",
+                "slug": "1roboto.md"
             },
             {
-                "name": "Lists",
-                "slug": "Lists",
-                "children": [
-                    {
-                        "path": "patterns/1.elements/2.Typography/Lists/list-block.md",
-                        "name": "Block list",
-                        "slug": "list-block.md"
-                    },
-                    {
-                        "path": "patterns/1.elements/2.Typography/Lists/list-definition.md",
-                        "name": "Definition list",
-                        "slug": "list-definition.md"
-                    },
-                    {
-                        "path": "patterns/1.elements/2.Typography/Lists/list-inline.md",
-                        "name": "Inline list",
-                        "slug": "list-inline.md"
-                    },
-                    {
-                        "path": "patterns/1.elements/2.Typography/Lists/list-ordered.md",
-                        "name": "Ordered list",
-                        "slug": "list-ordered.md"
-                    },
-                    {
-                        "path": "patterns/1.elements/2.Typography/Lists/list-unordered.md",
-                        "name": "Unordered list",
-                        "slug": "list-unordered.md"
-                    },
-                    {
-                        "path": "patterns/1.elements/2.Typography/Lists/list-unstyled.md",
-                        "name": "Unstyled list",
-                        "slug": "list-unstyled.md"
-                    }
-                ]
+                "path": "patterns/1.elements/2.Typography/2embed-font.md",
+                "name": "Embed Font",
+                "slug": "2embed-font.md"
             },
             {
-                "path": "patterns/1.elements/2.Typography/blockquote.md",
-                "name": "Blockquote",
-                "slug": "blockquote.md"
-            },
-            {
-                "path": "patterns/1.elements/2.Typography/body-copy.md",
-                "name": "Body copy",
-                "slug": "body-copy.md"
-            },
-            {
-                "path": "patterns/1.elements/2.Typography/headings.md",
-                "name": "Headings",
-                "slug": "headings.md"
-            },
-            {
-                "path": "patterns/1.elements/2.Typography/lead-copy.md",
-                "name": "Lead copy",
-                "slug": "lead-copy.md"
+                "path": "patterns/1.elements/2.Typography/font-sizes.md",
+                "name": "Font sizes",
+                "slug": "font-sizes.md"
             },
             {
                 "path": "patterns/1.elements/2.Typography/links.md",
                 "name": "Links",
                 "slug": "links.md"
-            },
-            {
-                "path": "patterns/1.elements/2.Typography/rules.md",
-                "name": "Horizontal rule",
-                "slug": "rules.md"
-            },
-            {
-                "path": "patterns/1.elements/2.Typography/summary-copy.md",
-                "name": "Summary copy",
-                "slug": "summary-copy.md"
-            },
-            {
-                "path": "patterns/1.elements/2.Typography/text-alignment.md",
-                "name": "Text alignment",
-                "slug": "text-alignment.md"
             }
         ]
     },
     {
-        "name": "Grids",
-        "slug": "3.Grids",
+        "name": "Brands",
+        "slug": "Brands",
         "children": [
             {
-                "path": "patterns/1.elements/3.Grids/grid-desktop.md",
-                "name": "Grid desktop",
-                "slug": "grid-desktop.md"
+                "path": "patterns/1.elements/Brands/1.R42.md",
+                "name": "R42",
+                "slug": "1.R42.md"
             },
             {
-                "path": "patterns/1.elements/3.Grids/grid-mobile.md",
-                "name": "Grid mobile",
-                "slug": "grid-mobile.md"
+                "path": "patterns/1.elements/Brands/2.wingo.1.md",
+                "name": "Wingo",
+                "slug": "2.wingo.1.md"
             },
             {
-                "path": "patterns/1.elements/3.Grids/grid-tablet.md",
-                "name": "Grid tablet",
-                "slug": "grid-tablet.md"
+                "path": "patterns/1.elements/Brands/3.eugenio.md",
+                "name": "Wingo",
+                "slug": "3.eugenio.md"
+            }
+        ]
+    },
+    {
+        "name": "Breadcrumbs",
+        "slug": "Breadcrumbs",
+        "children": [
+            {
+                "path": "patterns/1.elements/Breadcrumbs/breadcrumbs.md",
+                "name": "Breadcrumb",
+                "slug": "breadcrumbs.md"
             }
         ]
     },
@@ -147,49 +92,45 @@
         "slug": "Buttons",
         "children": [
             {
-                "path": "patterns/1.elements/Buttons/ buttons-call-to-action.md",
-                "name": "Button call to action  julianaghg",
-                "slug": " buttons-call-to-action.md"
+                "path": "patterns/1.elements/Buttons/1.btn-button-form.md",
+                "name": "Primary & Secondary Action Buttons",
+                "slug": "1.btn-button-form.md"
             },
             {
-                "path": "patterns/1.elements/Buttons/btn-button-form.md",
-                "name": "Button Form",
-                "slug": "btn-button-form.md"
+                "name": "Buttons states",
+                "slug": "2.Buttons states",
+                "children": [
+                    {
+                        "path": "patterns/1.elements/Buttons/2.Buttons states/1.list-definition.md",
+                        "name": "Button state - Primary",
+                        "slug": "1.list-definition.md"
+                    },
+                    {
+                        "path": "patterns/1.elements/Buttons/2.Buttons states/2.list-block.md",
+                        "name": "Button state - Secondary",
+                        "slug": "2.list-block.md"
+                    }
+                ]
             },
             {
-                "path": "patterns/1.elements/Buttons/btn-buttons-group.md",
+                "path": "patterns/1.elements/Buttons/3.btn-buttons-group.md",
                 "name": "Buttons Groups",
-                "slug": "btn-buttons-group.md"
+                "slug": "3.btn-buttons-group.md"
             },
             {
-                "path": "patterns/1.elements/Buttons/btn-buttons-states-primary.md",
-                "name": "Buttons Primary - States",
-                "slug": "btn-buttons-states-primary.md"
-            },
-            {
-                "path": "patterns/1.elements/Buttons/btn-buttons-states-secundary.md",
-                "name": "hjhgjgh",
-                "slug": "btn-buttons-states-secundary.md"
-            },
-            {
-                "path": "patterns/1.elements/Buttons/buttons-drop-down.md",
-                "name": "Button Drop-Down",
-                "slug": "buttons-drop-down.md"
-            },
-            {
-                "path": "patterns/1.elements/Buttons/buttons-icons.md",
+                "path": "patterns/1.elements/Buttons/7.buttons-icons.md",
                 "name": "Button Icons Buttons",
-                "slug": "buttons-icons.md"
+                "slug": "7.buttons-icons.md"
             },
             {
-                "path": "patterns/1.elements/Buttons/buttons-sizes.md",
+                "path": "patterns/1.elements/Buttons/8.buttons-sizes.md",
                 "name": "Buttons sizes",
-                "slug": "buttons-sizes.md"
+                "slug": "8.buttons-sizes.md"
             },
             {
-                "path": "patterns/1.elements/Buttons/buttons-split-drop-down.md",
-                "name": "Button Split dropdowns",
-                "slug": "buttons-split-drop-down.md"
+                "path": "patterns/1.elements/Buttons/9.buttons-tags.md",
+                "name": "Button tags",
+                "slug": "9.buttons-tags.md"
             }
         ]
     },
@@ -198,34 +139,41 @@
         "slug": "Forms",
         "children": [
             {
-                "path": "patterns/1.elements/Forms/1.fields.md",
-                "name": "Form fields",
-                "slug": "1.fields.md"
+                "name": "Login",
+                "slug": "1.Login",
+                "children": [
+                    {
+                        "path": "patterns/1.elements/Forms/1.Login/1.login.md",
+                        "name": "Login",
+                        "slug": "1.login.md"
+                    },
+                    {
+                        "path": "patterns/1.elements/Forms/1.Login/2.login-horizontal.md",
+                        "name": "Login Horizontal",
+                        "slug": "2.login-horizontal.md"
+                    }
+                ]
             },
             {
-                "path": "patterns/1.elements/Forms/field-sizes.md",
-                "name": "Field sizes juliana",
-                "slug": "field-sizes.md"
+                "name": "Form",
+                "slug": "2.Form",
+                "children": [
+                    {
+                        "path": "patterns/1.elements/Forms/2.Form/input-form.md",
+                        "name": "Input Form",
+                        "slug": "input-form.md"
+                    },
+                    {
+                        "path": "patterns/1.elements/Forms/2.Form/login-horizontal.md",
+                        "name": "File input",
+                        "slug": "login-horizontal.md"
+                    }
+                ]
             },
             {
-                "path": "patterns/1.elements/Forms/form-error.md",
-                "name": "Form error message",
-                "slug": "form-error.md"
-            },
-            {
-                "path": "patterns/1.elements/Forms/form-horizontal.md",
-                "name": "Horizontal form",
-                "slug": "form-horizontal.md"
-            },
-            {
-                "path": "patterns/1.elements/Forms/form-login.md",
-                "name": "Login form",
-                "slug": "form-login.md"
-            },
-            {
-                "path": "patterns/1.elements/Forms/form-subscribe.md",
+                "path": "patterns/1.elements/Forms/4.form-subscribe.md",
                 "name": "Subscribe form",
-                "slug": "form-subscribe.md"
+                "slug": "4.form-subscribe.md"
             }
         ]
     },
@@ -245,14 +193,14 @@
         "slug": "Table",
         "children": [
             {
+                "path": "patterns/1.elements/Table/1.table-zebra.md",
+                "name": "Zebra table",
+                "slug": "1.table-zebra.md"
+            },
+            {
                 "path": "patterns/1.elements/Table/table-responsive.md",
                 "name": "Responsive table",
                 "slug": "table-responsive.md"
-            },
-            {
-                "path": "patterns/1.elements/Table/table-zebra.md",
-                "name": "Zebra table",
-                "slug": "table-zebra.md"
             }
         ]
     }
