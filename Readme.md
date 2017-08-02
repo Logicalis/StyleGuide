@@ -1,6 +1,6 @@
 # Logicalis Style Guide
 
-Based on [Tapestry](https://github.com/PebbleRoad/tapestry)
+https://logicalis.github.io/StyleGuide/
 
 ## Developing
         npm install
