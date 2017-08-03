@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "modernizr": "~2.6.2",
-    "jquery": "~3.2.1",
+    "jquery": "~1.9.1",
     "font-awesome": "latest",
     "tipsy": "~0.1.7",
     "Selecter": "~3.0.12"

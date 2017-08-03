@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    IPAD.CSS
+\*------------------------------------*/
+
+/*
+ * Import grids for tablet only
+ */
+
+@import "../grids/grid-tablet";
+
+
+/*
+ * Show Hide Sections
+ */
+@include media-query(tablet){
+	.hide-for-tablet{
+	  display:none;
+	}
+}
