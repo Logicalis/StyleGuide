@@ -24,30 +24,24 @@
     "node": ">=0.8.0"
   },
   "devDependencies": {
-    "bower": "^1.8.0",
-    "ecstatic": "~0.4.13",
     "gulp": "^3.9.1",
-    "gulp-clean": "~0.2.4",
-    "gulp-cssmin": "~0.1.0",
-    "gulp-embedlr": "~0.5.2",
-    "gulp-jade": "~0.4.2",
-    "gulp-prettify": "~0.1.2",
-    "gulp-prune-html": "git://github.com/rmdort/gulp-prune-html",
-    "gulp-rename": "~1.1.0",
-    "gulp-sass": "^2.3.1",
-    "gulp-script-inject": "0.0.6",
-    "gulp-tree": "0.1.4",
     "gulp-util": "~2.2.14",
+    "gulp-jade": "~0.4.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-cssmin": "~0.1.0",
+    "gulp-clean": "~0.2.4",
+    "tiny-lr": "0.0.5",
+    "path": "~0.4.9",
     "http": "0.0.0",
+    "ecstatic": "~0.4.13",
+    "gulp-embedlr": "~0.5.2",
+    "gulp-prettify": "~0.1.2",
     "js-yaml": "~3.0.1",
     "marked": "~0.3.1",
-    "path": "~0.4.9",
-    "tiny-lr": "0.0.5"
+    "gulp-rename": "~1.1.0",
+    "gulp-tree": "0.1.4",
+    "gulp-prune-html": "git://github.com/rmdort/gulp-prune-html",
+    "gulp-script-inject": "0.0.6"
   },
-  "dependencies": {},
-  "scripts": {
-    "postinstall": "bower install",
-    "start": "gulp patterns",
-    "build": "gulp build"
-  }
+  "dependencies": {}
 }

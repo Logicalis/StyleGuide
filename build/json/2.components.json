@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Accordion",
+        "slug": "Accordion",
+        "children": [
+            {
+                "path": "patterns/2.components/Accordion/1.accordion.md",
+                "name": "Accordion",
+                "slug": "1.accordion.md"
+            }
+        ]
+    },
+    {
+        "name": "Alerts",
+        "slug": "Alerts",
+        "children": [
+            {
+                "path": "patterns/2.components/Alerts/1.alert-success.md",
+                "name": "Alert success",
+                "slug": "1.alert-success.md"
+            },
+            {
+                "path": "patterns/2.components/Alerts/2.alert-info.md",
+                "name": "Alert Info",
+                "slug": "2.alert-info.md"
+            },
+            {
+                "path": "patterns/2.components/Alerts/3.alert-warning.md",
+                "name": "Alert Warning",
+                "slug": "3.alert-warning.md"
+            },
+            {
+                "path": "patterns/2.components/Alerts/4.alert-danger.md",
+                "name": "Alert danger",
+                "slug": "4.alert-danger.md"
+            }
+        ]
+    },
+    {
+        "name": "Date",
+        "slug": "Date",
+        "children": [
+            {
+                "path": "patterns/2.components/Date/datepicker.md",
+                "name": "Datepicker",
+                "slug": "datepicker.md"
+            }
+        ]
+    },
+    {
+        "name": "Dropdown",
+        "slug": "Dropdown",
+        "children": [
+            {
+                "path": "patterns/2.components/Dropdown/dropdown-buttons.md",
+                "name": "Dropdown buttons",
+                "slug": "dropdown-buttons.md"
+            },
+            {
+                "path": "patterns/2.components/Dropdown/dropdown-hover.md",
+                "name": "Dropdown on hover",
+                "slug": "dropdown-hover.md"
+            }
+        ]
+    },
+    {
+        "name": "Modal",
+        "slug": "Modal",
+        "children": [
+            {
+                "path": "patterns/2.components/Modal/modal-ajax.md",
+                "name": "Modal Ajax",
+                "slug": "modal-ajax.md"
+            }
+        ]
+    },
+    {
+        "name": "Navbar",
+        "slug": "Navbar",
+        "children": [
+            {
+                "path": "patterns/2.components/Navbar/navbar.md",
+                "name": "Navbar",
+                "slug": "navbar.md"
+            }
+        ]
+    },
+    {
+        "name": "Panels",
+        "slug": "Panels",
+        "children": [
+            {
+                "path": "patterns/2.components/Panels/panel.md",
+                "name": "Panel",
+                "slug": "panel.md"
+            }
+        ]
+    },
+    {
+        "name": "Progress bar",
+        "slug": "Progress bar",
+        "children": [
+            {
+                "path": "patterns/2.components/Progress bar/progress-bar.md",
+                "name": "Progress bar",
+                "slug": "progress-bar.md"
+            }
+        ]
+    },
+    {
+        "name": "Tab",
+        "slug": "Tab",
+        "children": [
+            {
+                "path": "patterns/2.components/Tab/tab.md",
+                "name": "Tab",
+                "slug": "tab.md"
+            }
+        ]
+    },
+    {
+        "name": "Tooltip",
+        "slug": "Tooltip",
+        "children": [
+            {
+                "path": "patterns/2.components/Tooltip/tooltip.md",
+                "name": "Tooltip",
+                "slug": "tooltip.md"
+            }
+        ]
+    }
+]

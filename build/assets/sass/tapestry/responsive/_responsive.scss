@@ -1,0 +1,65 @@
+/*------------------------------------*\
+    RESPONSIVE.CSS
+\*------------------------------------*/
+
+/**
+ * Mobile First
+ * Base Width: 320px
+ */
+
+
+/**
+ * 600px
+ */
+@import "tablets-desktops";
+
+
+/**
+ * 992px
+ */
+@import "desktop";
+
+
+/**
+ * Target Specific Devices Only 
+ */
+@import "phone";
+
+
+/**
+ * Iphone Landscape
+ */
+ 
+@import "phone-landscape";
+
+
+/**
+ * 768px : For Ipad
+ */
+
+@import "tablet";
+
+
+/**
+ * iPads (landscape)
+ */
+
+@import "tablet-landscape";
+
+
+/**
+ * 1382px: Wide Screen
+ */
+
+@include media-query(widescreen){
+  
+}
+
+
+/**
+ * Retina
+ */
+
+@include media-query(retina){
+
+}
