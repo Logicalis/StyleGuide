@@ -3,14 +3,18 @@
 Based on [Tapestry](https://github.com/PebbleRoad/tapestry)
 
 ## Developing
-        npm install
-        npm start
+```
+yarn install
+yarn start
+```
 
 Got to [http://localhost:8000](http://localhost:8000)
 
 ### Build
 
-        npm run build
+```
+yarn build
+```
 
 ## Tapestry Pattern format
 
